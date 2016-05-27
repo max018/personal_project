@@ -1,0 +1,84 @@
+.body {
+	margin: 0px;
+}
+
+.menu {
+	height: 72px;
+	background-color: #669999;
+}
+
+.title {
+	padding-left: 10px;
+	font-size: 65px;
+	font-family: 'Geo', sans-serif;
+	color: white;
+	width: 105px; 
+	float: left;
+}
+
+.menubar {
+	height: 72px;
+	background-color: #669999;
+	float: left;
+	width: 105px;
+	text-align: center; 
+}
+
+.menutext {
+	text-align: center;
+	margin-top: 20px;
+	width: 85px;
+	margin-left: 12px;
+	font-size: 30px;
+	font-family: 'Cuprum', sans-serif;
+	color: white;
+}
+
+.menutext:hover {
+	color: #ff6666;
+}
+
+.menubarsearch {
+	float: right;
+	width: 300px;
+	margin-top: 25px;
+}
+
+.dropdown {
+	padding-top: 25px;
+}
+
+.gameoptions {
+	text-align: center;
+	height: 50px;
+	font-family: 'Geo', sans-serif;
+	font-size: 40px;
+	margin-top: 0px;
+}
+
+.gameoptions:hover {
+	text-decoration: underline;
+}
+
+.search {
+    padding:8px 15px;
+    background-color: #ffffff;
+    color: black;
+    border: 0px;
+}
+
+.button {
+	width: 60px;
+	height: 31px;
+	background-color:#ff6666;
+    color:#ffffff;
+    border:2px solid #ff6666;
+    text-align: center;
+    margin: 0px;
+}
+
+.button:hover  {
+    background-color:#ff944d;
+    border: 2px solid #ff944d;
+    color:#ffffff;
+}
