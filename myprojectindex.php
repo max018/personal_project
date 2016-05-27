@@ -23,14 +23,26 @@
 	<body class="body" ng-app="tutorialApp" ng-controller="tutorialCtrl">	
 		<div class="menu">
 			<div class="title">
-				NSX
+				NOX
 			</div>
 			<div class="menubar">
 				<div class="menutext" ng-click="games()">GAMES</div>
+				<div class="dropdownFrame">	
+					<div class="dropdown">Reviews</div>
+					<div class="dropdown">News</div>
+					<div class="dropdown">Videos</div>
+					<div class="dropdown" style="padding-bottom: 3px">Trailers</div>
+				</div>
 			</div>
-			<div class="dropdown" ng-if="View == 'gamesList'"><?php echo $_GET['page']?></div>
+			
 			<div class="menubar">
-				<div class="menutext">MOVIES</div>
+				<div class="menutext" ng-click="movies()">MOVIES</div>
+				<div class="dropdownFrame">	
+					<div class="dropdown">Trailers</div>
+					<div class="dropdown">Dates</div>
+					<div class="dropdown">Interviews</div>
+					<div class="dropdown" style="padding-bottom: 3px">Reviews</div>
+				</div>
 			</div>
 			<div class="menubar">
 				<div class="menutext">SHOWS</div>
@@ -42,6 +54,9 @@
                 <input class="search" type="text" placeholder="Search..." required>
                 <button class="button">Search</button>
 			</form>
+		</div>
+		<div class="menu2">
+
 		</div>
 	</body>
 <html>

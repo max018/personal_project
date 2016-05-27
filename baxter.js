@@ -7,5 +7,9 @@ app.controller('tutorialCtrl', ['$scope',
 			$scope.View = 'gamesList';
 		}
 
+		$scope.movies = function(){
+			$scope.View = 'moviesList';
+		}
+
 	}
 ]);
