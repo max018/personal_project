@@ -7,11 +7,6 @@
 	background-color: #669999;
 }
 
-.menu2 {
-	height: 30px;
-	background-color: #1f2e2e; 
-}
-
 .title {
 	padding-left: 10px;
 	font-size: 65px;
@@ -115,4 +110,8 @@
     background-color:#00cc44;
     border: 2px solid #00cc44;
     color:#ffffff;
+}
+
+#slides {
+	display: none;
 }

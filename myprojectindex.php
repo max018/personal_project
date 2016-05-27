@@ -15,8 +15,9 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
 
 
-		<!-- BAXTER JS -->
+		<!-- BAXTER CONFIG -->
 		<script src="baxter.js"></script>	
+		<script src="jquery.slides.min.js"></script>
 		<link href='myproject.css' rel='stylesheet' type='text/css'>	
 	</head>
 	
@@ -55,8 +56,14 @@
                 <button class="button">Search</button>
 			</form>
 		</div>
-		<div class="menu2">
-
+		<div>
+			<div id="slides">
+    			<img src="http://placehold.it/940x528">
+			    <img src="http://placehold.it/940x528">
+			    <img src="http://placehold.it/940x528">
+			    <img src="http://placehold.it/940x528">
+			    <img src="Images/Capture.png">
+  			</div>
 		</div>
 	</body>
 <html>

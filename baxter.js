@@ -10,6 +10,12 @@ app.controller('tutorialCtrl', ['$scope',
 		$scope.movies = function(){
 			$scope.View = 'moviesList';
 		}
-
 	}
 ]);
+
+$(function(){
+    $("#slides").slidesjs({
+        width: 940,
+    	height: 528
+   	});
+});
