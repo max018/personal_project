@@ -3,19 +3,16 @@ var app = angular.module('tutorialApp', []);
 app.controller('tutorialCtrl', ['$scope',
 	function($scope){
 
-		$scope.games = function(){
-			$scope.View = 'gamesList';
+		$scope.news = function(){
+			$scope.View = 'news';
 		}
 
 		$scope.movies = function(){
 			$scope.View = 'moviesList';
 		}
+
+		$scope.storyOne = function(){
+			$scope.View = 'witcherStory';
+		}
 	}
 ]);
-
-$(function(){
-    $("#slides").slidesjs({
-        width: 940,
-    	height: 528
-   	});
-});

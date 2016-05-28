@@ -112,6 +112,74 @@
     color:#ffffff;
 }
 
-#slides {
-	display: none;
+.newshome {
+	width: 1600px;
+	height: 700px;
+}
+
+.pictwo {
+	margin:5px;
+	background-image: url("Images/overwatch_pic.jpg");
+	height: 330px;
+	width: 500px;
+	float: left;
+}
+
+div.pictwoframe {
+	background-color: #1f2e2e;
+	opacity: 0.8;
+	height: 330px;
+	width: 200px;
+	float: right;
+
+}
+
+div.text2 p {
+	color: #ffffff;
+	font-size: 30px;
+	margin-top: 31px;
+	margin-left: 20px;
+	font-family: 'Cuprum', sans-serif;
+}
+
+.picone {
+	margin-top: 5px;
+	height: 720px;
+	width: 930px;
+	float: left;
+	background-image: url("Images/witcher_bloodandwine.jpg");
+}
+
+div.piconeframe {
+	background-color: #1f2e2e;
+	opacity: 0.8;
+	width: 520px;
+	height: 720px;
+	float: right;
+}
+
+div.text1 p {
+	color: #ffffff;
+	font-size: 72px;
+	margin-top: 31px;
+	margin-left: 20px;
+	font-family: 'Cuprum', sans-serif;
+}
+
+.piconebutton {
+	width: 480px;
+	height: 150px;
+	background-color:#ff944d;
+    color:#ffffff;
+    border:2px solid #ff944d;
+    text-align: center;
+    margin-left: 20px;
+    font-size: 78px;
+    font-family: 'Geo', sans-serif;: 
+}
+
+.piconebutton:hover {
+	background-color: #00cc44;
+    border: 2px solid #00cc44;
+    color:#ffffff;
 }

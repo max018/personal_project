@@ -24,13 +24,13 @@
 	<body class="body" ng-app="tutorialApp" ng-controller="tutorialCtrl">	
 		<div class="menu">
 			<div class="title">
-				NOX
+				NDX
 			</div>
 			<div class="menubar">
-				<div class="menutext" ng-click="games()">GAMES</div>
+				<div class="menutext">GAMES</div>
 				<div class="dropdownFrame">	
 					<div class="dropdown">Reviews</div>
-					<div class="dropdown">News</div>
+					<div class="dropdown" ng-click="news()">News</div>
 					<div class="dropdown">Videos</div>
 					<div class="dropdown" style="padding-bottom: 3px">Trailers</div>
 				</div>
@@ -56,14 +56,23 @@
                 <button class="button">Search</button>
 			</form>
 		</div>
-		<div>
-			<div id="slides">
-    			<img src="http://placehold.it/940x528">
-			    <img src="http://placehold.it/940x528">
-			    <img src="http://placehold.it/940x528">
-			    <img src="http://placehold.it/940x528">
-			    <img src="Images/Capture.png">
-  			</div>
+		<div class="newshome" ng-if="View == 'news'">
+			<div class="pictwo">
+				<div class="pictwoframe">
+					<div class="text2">
+						<p>Should you be playing overwatch?</p>
+					</div>
+				</div>
+				<div class="picone">
+					<div class="piconeframe">
+						<div class="text1">
+							<p>The Witcher 3: Blood and Wine. New screenshots of The Land of Love and Wine</p>
+						</div>
+						<button class="piconebutton" ng-click="storyOne()">See the story</button>
+					</div>
+				</div>
+			</div>
 		</div>
+		<div ng-if="View == 'witcherStory'">Suh</div>
 	</body>
 <html>
